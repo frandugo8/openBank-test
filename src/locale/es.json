@@ -1,0 +1,45 @@
+{
+  "view1": {
+    "title": "Crea tu Password Manager",
+    "info": "Guarda aquí todas tus contraseñas, datos o cualquier información, olvida las notad de papel y las aplicaciones no protegidas",
+    "security": "Crea tu clave maestra: solo tú podrás acceder a tus secretos con ella.",
+    "how_works": {
+      "title": "Cómo funciona",
+      "details": "En primer lugar, debes crear una contraseña diferente para sus pertenencias electrónicas. No podrás recuperar tu contraseña, así que recuérdala bien"
+    },
+    "what_data": {
+      "title": "Qué datos puedes guardar",
+      "details": "Por ejemplo, el número de tu tarjeta, el PIN y el PUK de tu teléfono móvil, el número de serie de alguno de tus dispositivos o cualquier información que necesites tener en lugar seguro."
+    },
+    "checkbox": "Acepta que es mayor de edad y que tratemos sus datos según la politica de protección de datos"
+  },
+  "view2": {
+    "title": "Crea tu Password Manager",
+    "details": "En primer lugar, debes crear una contraseña diferente para sus pertenencias electrónicas. No podrás recuperar tu contraseña, así que recuérdala bien.",
+    "error": {
+      "password": "La contraseña no cumple con las siguientes condiciones: (Min 8 - Max 24 caracteres)(Al menos 1 número y una mayúscula)",
+      "rePassword": "Las contraseñas no coinciden"
+    },
+    "input": {
+      "password": "Crea tu contraseña Maestra",
+      "rePassword": "Repite tu Contraseña Maestra",
+      "passwordTrack": "Crea tu pista para recordar tu contraseña (opcional)"
+    },
+    "trackInfo": "También puedes crear una pista que te ayude a recordar tu contraseña maestra"
+  },
+  "view3": {
+    "success": {
+      "title": "¡Tu Password Manager ya está creado!",
+      "info": "Recibirá un mensaje de correo con la confirmación"
+    },
+    "error": {
+      "title": "Ha habido un error",
+      "info": "No hemos podido modificar tu Contraseña Maestra. Inténtalo más tarde"
+    }
+  },
+  "buttons": {
+    "cancel": "Cancelar",
+    "next": "Siguiente",
+    "finish": "Acceder"
+  }
+}
