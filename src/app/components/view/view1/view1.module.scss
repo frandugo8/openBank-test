@@ -1,0 +1,39 @@
+
+.view {
+  .images {
+    display: flex;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 2rem 0 2rem;
+      box-sizing: border-box;
+      width: 50%;
+
+      &__image {
+        width: 10.5rem;
+        height: 10.5rem;
+      }
+    }
+  }
+
+  &__dataProtection {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .view {
+    .images {
+      flex-direction: column;
+
+      .content {
+        width: 100%;
+      }
+    }
+  }
+}

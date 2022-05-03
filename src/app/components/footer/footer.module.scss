@@ -1,0 +1,50 @@
+
+@import "../../shared/styles/settings/colors";
+
+.footer {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  font-size: 1.4rem;
+  align-items: center;
+  border-top: .1rem solid rgba(0, 0, 0, .2);
+
+  &___justifyLast {
+    justify-content: flex-end;
+  }
+
+  .cancel, .next, .finish {
+    font-weight: bold;
+  }
+
+  .cancel {
+    color: $dark-blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .next {
+    background-color: $dark-blue;
+    padding: 1.2rem 1.8rem;
+    box-sizing: border-box;
+    color: $white;
+    height: fit-content;
+    border-radius: .3rem;
+    transition: .1s linear background-color;
+
+    &:hover {
+      background-color: $blue;
+    }
+  }
+
+  .finish {
+    color: $pink;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

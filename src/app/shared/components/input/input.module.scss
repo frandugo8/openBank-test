@@ -1,0 +1,45 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__label {
+    margin-bottom: .6rem;
+    font-weight: bold;
+  }
+
+  .inputWrapper {
+    position: relative;
+
+    .input {
+      border: 1px solid rgb(220, 220, 220);
+      padding: 1rem 3rem 1rem 1rem;
+      font-size: 20px;
+      border-radius: 4px;
+      box-sizing: border-box;
+      width: 100%;
+  
+      &:focus{
+        outline: none;
+      }
+    }
+
+    .showButton {
+      position: absolute;
+      top: 50%;
+      right: .4rem;
+      transform: translate(-50%, -50%);
+      width: 1.2rem;
+      height: 1.2rem;
+      cursor: pointer;
+
+      &__icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

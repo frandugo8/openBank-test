@@ -1,0 +1,24 @@
+
+.checkbox {
+  width: 1.6rem;
+  height: 1.6rem;
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  border: 2px solid black;
+  position: relative;
+  border-radius: .2rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(235, 235, 235);
+  }
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
